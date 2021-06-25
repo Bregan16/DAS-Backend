@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_naturtalente_naturtalentes",
+  "info": {
+    "name": "Naturtalente",
+    "icon": "hiking",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Faehrtensuchen": {
+      "type": "integer",
+      "default": 0
+    },
+    "Fesseln": {
+      "type": "integer",
+      "default": 0
+    },
+    "FischenAngeln": {
+      "type": "integer",
+      "default": 0
+    },
+    "Orientierung": {
+      "type": "integer",
+      "default": 0
+    },
+    "Pflanzenkunde": {
+      "type": "integer",
+      "default": 0
+    },
+    "Tierkunde": {
+      "type": "integer",
+      "default": 0
+    },
+    "Wildnisleben": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

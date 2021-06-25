@@ -1,0 +1,83 @@
+{
+  "collectionName": "components_kampftechniken_kampftechnikens",
+  "info": {
+    "name": "kampftechniken",
+    "icon": "broom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Armbruste": {
+      "type": "integer",
+      "required": true,
+      "unique": false,
+      "default": 6
+    },
+    "Bogen": {
+      "type": "integer",
+      "default": 6,
+      "unique": false,
+      "required": true
+    },
+    "Dolche": {
+      "type": "integer",
+      "required": true,
+      "default": 6
+    },
+    "Fechtwaffen": {
+      "type": "integer",
+      "default": 6,
+      "required": true
+    },
+    "Hiebwaffen": {
+      "type": "integer",
+      "required": true,
+      "default": 6
+    },
+    "Kettenwaffen": {
+      "type": "integer",
+      "default": 6,
+      "required": true
+    },
+    "Lanzen": {
+      "type": "integer",
+      "required": true,
+      "default": 6
+    },
+    "Raufen": {
+      "type": "integer",
+      "default": 6,
+      "required": true
+    },
+    "Schilde": {
+      "type": "integer",
+      "default": 6,
+      "required": true
+    },
+    "Schwerter": {
+      "type": "integer",
+      "default": 6,
+      "required": true
+    },
+    "Stangenwaffen": {
+      "type": "integer",
+      "default": 6,
+      "required": true
+    },
+    "Wurfwaffen": {
+      "type": "integer",
+      "default": 6,
+      "required": true
+    },
+    "Zweihandhiebwaffen": {
+      "type": "integer",
+      "default": 6,
+      "required": true
+    },
+    "Zweihandschwerter": {
+      "type": "integer",
+      "default": 6,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_wissenstalente_wissenstalentes",
+  "info": {
+    "name": "Wissenstalente",
+    "icon": "brain"
+  },
+  "options": {},
+  "attributes": {
+    "BrettGlueckspiel": {
+      "type": "integer",
+      "default": 0
+    },
+    "Geographie": {
+      "type": "integer",
+      "default": 0
+    },
+    "Geschichtswissen": {
+      "type": "integer",
+      "default": 0
+    },
+    "GoetterKulte": {
+      "type": "integer",
+      "default": 0
+    },
+    "Kriegskunst": {
+      "type": "integer",
+      "default": 0
+    },
+    "Magiekunde": {
+      "type": "integer",
+      "default": 0
+    },
+    "Mechanik": {
+      "type": "integer",
+      "default": 0
+    },
+    "Rechnen": {
+      "type": "integer",
+      "default": 0
+    },
+    "Rechtskunde": {
+      "type": "integer",
+      "default": 0
+    },
+    "SagenLegenden": {
+      "type": "integer",
+      "default": 0
+    },
+    "Sphaerenkunde": {
+      "type": "integer",
+      "default": 0
+    },
+    "Sternkunde": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

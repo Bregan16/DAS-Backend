@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "chars",
   "info": {
-    "name": "char"
+    "name": "char",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -15,6 +16,22 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "Eigenschaften": {
+      "type": "component",
+      "repeatable": false,
+      "component": "eigenschaften.eigenschaften",
+      "required": true
+    },
+    "kampftechniken": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kampftechniken.kampftechniken"
+    },
+    "Fertigkeiten": {
+      "type": "component",
+      "repeatable": false,
+      "component": "fertigkeiten.fertigkeiten"
     }
   }
 }

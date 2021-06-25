@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_eigenschaften_eigenschaftens",
+  "info": {
+    "name": "Eigenschaften",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Mut": {
+      "type": "integer",
+      "required": true,
+      "default": 10
+    },
+    "Klugheit": {
+      "type": "integer",
+      "required": true,
+      "default": 10
+    },
+    "Intuition": {
+      "type": "integer",
+      "required": true,
+      "default": 10
+    },
+    "Charisma": {
+      "type": "integer",
+      "required": true,
+      "default": 10
+    },
+    "Fingerfertigkeit": {
+      "type": "integer",
+      "required": true,
+      "default": 10
+    },
+    "Gewandtheit": {
+      "type": "integer",
+      "required": true,
+      "default": 10
+    },
+    "Konstitution": {
+      "type": "integer",
+      "required": true,
+      "default": 10
+    },
+    "Koerperkraft": {
+      "type": "integer",
+      "required": true,
+      "default": 10
+    }
+  }
+}
