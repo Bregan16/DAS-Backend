@@ -32,6 +32,11 @@
       "type": "component",
       "repeatable": false,
       "component": "fertigkeiten.fertigkeiten"
+    },
+    "zauber": {
+      "type": "component",
+      "repeatable": true,
+      "component": "zauber.zauber"
     }
   }
 }

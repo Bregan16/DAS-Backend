@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_zauber_zaubers",
+  "info": {
+    "name": "zauber",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "fertigkeitswert": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
