@@ -36,17 +36,20 @@
     "zauber": {
       "type": "component",
       "repeatable": true,
-      "component": "zauber.zauber"
+      "component": "zauber.zauber",
+      "required": true
     },
     "liturgien": {
       "type": "component",
       "repeatable": true,
-      "component": "liturgien.liturgien"
+      "component": "liturgien.liturgien",
+      "required": true
     },
     "elfenlieder": {
       "type": "component",
       "repeatable": true,
-      "component": "elfenlieder.elfenlieder"
+      "component": "elfenlieder.elfenlieder",
+      "required": true
     }
   }
 }
