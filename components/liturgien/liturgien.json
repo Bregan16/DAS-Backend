@@ -1,16 +1,15 @@
 {
-  "collectionName": "components_zauber_zaubers",
+  "collectionName": "components_liturgien_liturgiens",
   "info": {
-    "name": "zauber",
-    "icon": "atom",
-    "description": ""
+    "name": "liturgien",
+    "icon": "at"
   },
   "options": {},
   "attributes": {
     "Name": {
       "type": "string"
     },
-    "Fertigkeitswert": {
+    "Fertikeitswert": {
       "type": "integer",
       "default": 0
     }

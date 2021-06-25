@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elfenlieder_elfenlieders",
+  "info": {
+    "name": "elfenlieder",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Fertikeitswert": {
+      "type": "integer"
+    }
+  }
+}
