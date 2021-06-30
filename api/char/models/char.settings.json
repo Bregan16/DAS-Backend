@@ -5,6 +5,10 @@
     "name": "char",
     "description": ""
   },
+  "spezies": {
+    "type": "string",
+    "default": "Mensch"
+  },
   "options": {
     "increments": true,
     "timestamps": true,
