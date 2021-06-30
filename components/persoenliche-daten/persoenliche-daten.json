@@ -55,6 +55,33 @@
     },
     "AllgemeineSonderfertikeiten": {
       "type": "text"
+    },
+    "Lebensenergie": {
+      "type": "integer"
+    },
+    "Astralenergie": {
+      "type": "integer"
+    },
+    "Karmaenergie": {
+      "type": "integer"
+    },
+    "Seelenkraft": {
+      "type": "integer"
+    },
+    "Zaehigkeit": {
+      "type": "integer"
+    },
+    "Ausweichen": {
+      "type": "integer"
+    },
+    "Initiative": {
+      "type": "integer"
+    },
+    "Geschwindigkeit": {
+      "type": "integer"
+    },
+    "Schicksalspunkte": {
+      "type": "integer"
     }
   }
 }
