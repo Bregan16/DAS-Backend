@@ -1,0 +1,60 @@
+{
+  "collectionName": "components_persoenliche_daten_persoenliche_datens",
+  "info": {
+    "name": "Persönliche Daten",
+    "icon": "angry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Spezies": {
+      "type": "string"
+    },
+    "Kultur": {
+      "type": "string"
+    },
+    "groesse": {
+      "type": "decimal"
+    },
+    "Titel": {
+      "type": "string"
+    },
+    "Sozialstatus": {
+      "type": "string"
+    },
+    "Alter": {
+      "type": "integer"
+    },
+    "Gewicht": {
+      "type": "integer"
+    },
+    "Geschlecht": {
+      "type": "enumeration",
+      "enum": [
+        "M",
+        "W"
+      ]
+    },
+    "Geburtsdatum": {
+      "type": "string"
+    },
+    "Geburtsort": {
+      "type": "string"
+    },
+    "Profession": {
+      "type": "string"
+    },
+    "Vorteile": {
+      "type": "text"
+    },
+    "Nachteile": {
+      "type": "text"
+    },
+    "AllgemeineSonderfertikeiten": {
+      "type": "text"
+    }
+  }
+}

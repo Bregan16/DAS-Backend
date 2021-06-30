@@ -5,10 +5,6 @@
     "name": "char",
     "description": ""
   },
-  "spezies": {
-    "type": "string",
-    "default": "Mensch"
-  },
   "options": {
     "increments": true,
     "timestamps": true,
@@ -54,6 +50,11 @@
       "repeatable": true,
       "component": "elfenlieder.elfenlieder",
       "required": true
+    },
+    "persoenlicheDaten": {
+      "type": "component",
+      "repeatable": false,
+      "component": "persoenliche-daten.persoenliche-daten"
     }
   }
 }
