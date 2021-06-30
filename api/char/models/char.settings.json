@@ -32,6 +32,29 @@
       "type": "component",
       "repeatable": false,
       "component": "fertigkeiten.fertigkeiten"
+    },
+    "zauber": {
+      "type": "component",
+      "repeatable": true,
+      "component": "zauber.zauber",
+      "required": true
+    },
+    "liturgien": {
+      "type": "component",
+      "repeatable": true,
+      "component": "liturgien.liturgien",
+      "required": true
+    },
+    "elfenlieder": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elfenlieder.elfenlieder",
+      "required": true
+    },
+    "persoenlicheDaten": {
+      "type": "component",
+      "repeatable": false,
+      "component": "persoenliche-daten.persoenliche-daten"
     }
   }
 }
