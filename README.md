@@ -13,3 +13,6 @@ https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/de
 https://dashboard.heroku.com/apps/whispering-brushlands-24107
 
 https://de.wiki-aventurica.de/wiki/Zauberformel/DSA5
+
+
+https://jamstack.org/headless-cms/strapi/

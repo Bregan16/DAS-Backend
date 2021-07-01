@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/karmale-sonderfertigkeitens",
+      "handler": "karmale-sonderfertigkeiten.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/karmale-sonderfertigkeitens/count",
+      "handler": "karmale-sonderfertigkeiten.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/karmale-sonderfertigkeitens/:id",
+      "handler": "karmale-sonderfertigkeiten.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/karmale-sonderfertigkeitens",
+      "handler": "karmale-sonderfertigkeiten.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/karmale-sonderfertigkeitens/:id",
+      "handler": "karmale-sonderfertigkeiten.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/karmale-sonderfertigkeitens/:id",
+      "handler": "karmale-sonderfertigkeiten.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

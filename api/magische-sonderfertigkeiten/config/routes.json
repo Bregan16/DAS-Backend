@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/magische-sonderfertigkeitens",
+      "handler": "magische-sonderfertigkeiten.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/magische-sonderfertigkeitens/count",
+      "handler": "magische-sonderfertigkeiten.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/magische-sonderfertigkeitens/:id",
+      "handler": "magische-sonderfertigkeiten.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/magische-sonderfertigkeitens",
+      "handler": "magische-sonderfertigkeiten.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/magische-sonderfertigkeitens/:id",
+      "handler": "magische-sonderfertigkeiten.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/magische-sonderfertigkeitens/:id",
+      "handler": "magische-sonderfertigkeiten.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

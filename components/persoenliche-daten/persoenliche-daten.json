@@ -47,15 +47,6 @@
     "Profession": {
       "type": "string"
     },
-    "Vorteile": {
-      "type": "text"
-    },
-    "Nachteile": {
-      "type": "text"
-    },
-    "AllgemeineSonderfertikeiten": {
-      "type": "text"
-    },
     "Lebensenergie": {
       "type": "integer"
     },

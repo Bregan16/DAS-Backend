@@ -55,6 +55,30 @@
       "type": "component",
       "repeatable": false,
       "component": "persoenliche-daten.persoenliche-daten"
+    },
+    "vorteiles": {
+      "via": "chars",
+      "collection": "vorteile"
+    },
+    "nachteiles": {
+      "via": "chars",
+      "collection": "nachteile"
+    },
+    "allgemeine_sonderfertigkeitens": {
+      "via": "chars",
+      "collection": "allgemeine-sonderfertigkeiten"
+    },
+    "kampfsonderfertigkeitens": {
+      "via": "chars",
+      "collection": "kampfsonderfertigkeiten"
+    },
+    "magische_sonderfertigkeitens": {
+      "via": "chars",
+      "collection": "magische-sonderfertigkeiten"
+    },
+    "karmale_sonderfertigkeitens": {
+      "via": "chars",
+      "collection": "karmale-sonderfertigkeiten"
     }
   }
 }

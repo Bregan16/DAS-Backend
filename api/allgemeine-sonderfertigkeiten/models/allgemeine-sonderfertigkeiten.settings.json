@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "allgemeine_sonderfertigkeitens",
+  "info": {
+    "name": "Allgemeine Sonderfertigkeiten",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "chars": {
+      "via": "allgemeine_sonderfertigkeitens",
+      "collection": "char",
+      "dominant": true
+    }
+  }
+}

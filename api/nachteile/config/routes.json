@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/nachteiles",
+      "handler": "nachteile.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nachteiles/count",
+      "handler": "nachteile.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nachteiles/:id",
+      "handler": "nachteile.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/nachteiles",
+      "handler": "nachteile.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/nachteiles/:id",
+      "handler": "nachteile.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/nachteiles/:id",
+      "handler": "nachteile.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

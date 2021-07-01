@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/allgemeine-sonderfertigkeitens",
+      "handler": "allgemeine-sonderfertigkeiten.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/allgemeine-sonderfertigkeitens/count",
+      "handler": "allgemeine-sonderfertigkeiten.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/allgemeine-sonderfertigkeitens/:id",
+      "handler": "allgemeine-sonderfertigkeiten.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/allgemeine-sonderfertigkeitens",
+      "handler": "allgemeine-sonderfertigkeiten.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/allgemeine-sonderfertigkeitens/:id",
+      "handler": "allgemeine-sonderfertigkeiten.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/allgemeine-sonderfertigkeitens/:id",
+      "handler": "allgemeine-sonderfertigkeiten.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

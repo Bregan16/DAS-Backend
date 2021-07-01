@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/vorteiles",
+      "handler": "vorteile.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vorteiles/count",
+      "handler": "vorteile.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vorteiles/:id",
+      "handler": "vorteile.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/vorteiles",
+      "handler": "vorteile.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/vorteiles/:id",
+      "handler": "vorteile.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/vorteiles/:id",
+      "handler": "vorteile.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "karmale_sonderfertigkeitens",
+  "info": {
+    "name": "Karmale Sonderfertigkeiten"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "chars": {
+      "via": "karmale_sonderfertigkeitens",
+      "collection": "char",
+      "dominant": true
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kampfsonderfertigkeitens",
+      "handler": "kampfsonderfertigkeiten.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kampfsonderfertigkeitens/count",
+      "handler": "kampfsonderfertigkeiten.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kampfsonderfertigkeitens/:id",
+      "handler": "kampfsonderfertigkeiten.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kampfsonderfertigkeitens",
+      "handler": "kampfsonderfertigkeiten.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kampfsonderfertigkeitens/:id",
+      "handler": "kampfsonderfertigkeiten.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kampfsonderfertigkeitens/:id",
+      "handler": "kampfsonderfertigkeiten.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kampfsonderfertigkeitens",
+  "info": {
+    "name": "Kampf Sonderfertigkeiten",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "chars": {
+      "via": "kampfsonderfertigkeitens",
+      "collection": "char",
+      "dominant": true
+    }
+  }
+}
