@@ -1,5 +1,7 @@
 # Strapi application
 
+yarn develop
+
 A quick description of your strapi application
 
 Madman16

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_talente_talentes",
+  "info": {
+    "name": "talente",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "fertigkeitswert": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

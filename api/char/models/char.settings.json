@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "discordName": {
       "type": "string",
       "required": true,
       "unique": true
@@ -22,16 +22,6 @@
       "repeatable": false,
       "component": "eigenschaften.eigenschaften",
       "required": true
-    },
-    "kampftechniken": {
-      "type": "component",
-      "repeatable": false,
-      "component": "kampftechniken.kampftechniken"
-    },
-    "Fertigkeiten": {
-      "type": "component",
-      "repeatable": false,
-      "component": "fertigkeiten.fertigkeiten"
     },
     "zauber": {
       "type": "component",
@@ -79,6 +69,16 @@
     "karmale_sonderfertigkeitens": {
       "via": "chars",
       "collection": "karmale-sonderfertigkeiten"
+    },
+    "kampftechniken": {
+      "type": "component",
+      "repeatable": true,
+      "component": "kampftechniken.kampftechniken"
+    },
+    "talente": {
+      "type": "component",
+      "repeatable": true,
+      "component": "talente.talente"
     }
   }
 }

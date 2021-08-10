@@ -1,0 +1,198 @@
+{
+    "name": "Raharion",
+    "spieler": [
+        "Sindbad",
+        "Werner"
+    ],
+    "eigenschaften": {
+        "MU": 14,
+        "KL": 12,
+        "IN": 15,
+        "CH": 10,
+        "FF": 14,
+        "GE": 15,
+        "KO": 11,
+        "KK": 11
+    },
+    "kampftechniken": [
+        {
+            "name": "Bögen",
+            "ktw": 13
+        },
+        {
+            "name": "Dolche",
+            "ktw": 13
+        },
+        {
+            "name": "Fechtwaffen",
+            "ktw": 13
+        },
+        {
+            "name": "Kettenwaffen",
+            "ktw": 13
+        }
+    ],
+    "talente": [
+        {
+            "name": "Klettern",
+            "fertigkeitswert": 3
+        },
+        {
+            "name": "Körperbeherrschung",
+            "fertigkeitswert": 8
+        },
+        {
+            "name": "Reiten",
+            "fertigkeitswert": 6
+        },
+        {
+            "name": "Schwimmen",
+            "fertigkeitswert": 5
+        },
+        {
+            "name": "Selbstbeherrschung",
+            "fertigkeitswert": 2
+        },
+        {
+            "name": "Singen",
+            "fertigkeitswert": 6
+        },
+        {
+            "name": "Sinnesschärfe",
+            "fertigkeitswert": 6
+        },
+        {
+            "name": "Verbergen",
+            "fertigkeitswert": 2
+        },
+        {
+            "name": "Gassenwissen",
+            "fertigkeitswert": 4
+        },
+        {
+            "name": "Menschenkenntnis",
+            "fertigkeitswert": 2
+        },
+        {
+            "name": "Überreden",
+            "fertigkeitswert": 4
+        },
+        {
+            "name": "Willenskraft",
+            "fertigkeitswert": 6
+        },
+        {
+            "name": "Fährtensuchen",
+            "fertigkeitswert": 1
+        },
+        {
+            "name": "Orientierung",
+            "fertigkeitswert": 3
+        },
+        {
+            "name": "Pflanzenkunde",
+            "fertigkeitswert": 1
+        },
+        {
+            "name": "Tierkunde",
+            "fertigkeitswert": 1
+        },
+        {
+            "name": "Wildnisleben",
+            "fertigkeitswert": 4
+        },
+        {
+            "name": "Geschichtswissen",
+            "fertigkeitswert": 2
+        },
+        {
+            "name": "Götter & Kulte",
+            "fertigkeitswert": 1
+        },
+        {
+            "name": "Kriegskunst",
+            "fertigkeitswert": 1
+        },
+        {
+            "name": "Magiekunde",
+            "fertigkeitswert": 7
+        },
+        {
+            "name": "Mechanik",
+            "fertigkeitswert": 4
+        },
+        {
+            "name": "Rechnen",
+            "fertigkeitswert": 2
+        },
+        {
+            "name": "Rechtskunde",
+            "fertigkeitswert": 2
+        },
+        {
+            "name": "Sagen & Legenden",
+            "fertigkeitswert": 4
+        },
+        {
+            "name": "Boote & Schiffe",
+            "fertigkeitswert": 2
+        },
+        {
+            "name": "Handel",
+            "fertigkeitswert": 1
+        },
+        {
+            "name": "Heilkunde Wunden",
+            "fertigkeitswert": 3
+        },
+        {
+            "name": "Holzbearbeitung",
+            "fertigkeitswert": 12
+        },
+        {
+            "name": "Musizieren",
+            "fertigkeitswert": 7
+        },
+        {
+            "name": "Schlösserknacken",
+            "fertigkeitswert": 4
+        }
+    ],
+    "zauber":[
+        {
+            "name": "Axxeleratus",
+            "fertigkeitswert": 8
+        },
+        {
+            "name": "Blick in die Gedanken",
+            "fertigkeitswert": 3
+        },
+        {
+            "name": "Krötensprung",
+            "fertigkeitswert": 7
+        },
+        {
+            "name": "Odem Arcanum",
+            "fertigkeitswert": 3
+        },
+        {
+            "name": "Silentium",
+            "fertigkeitswert": 5
+        },
+        {
+            "name": "Spinnenlauf",
+            "fertigkeitswert": 7
+        }
+    ],
+    "liturgien":[],
+    "elfenlieder": [
+        {
+            "name": "Erinnerungsmelodie",
+            "fertigkeitswert": 2
+        },
+        {
+            "name": "Zaubermelodie",
+            "fertigkeitswert": 2
+        }
+    ]
+}
