@@ -2,14 +2,15 @@
   "collectionName": "components_elfenlieder_elfenlieders",
   "info": {
     "name": "elfenlieder",
-    "icon": "asterisk"
+    "icon": "asterisk",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "Fertikeitswert": {
+    "fertigkeitswert": {
       "type": "integer"
     }
   }

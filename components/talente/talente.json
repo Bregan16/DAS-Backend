@@ -1,16 +1,15 @@
 {
-  "collectionName": "components_liturgien_liturgiens",
+  "collectionName": "components_talente_talentes",
   "info": {
-    "name": "liturgien",
-    "icon": "at",
-    "description": ""
+    "name": "talente",
+    "icon": "address-card"
   },
   "options": {},
   "attributes": {
     "name": {
       "type": "string"
     },
-    "fertikeitswert": {
+    "fertigkeitswert": {
       "type": "integer",
       "default": 0
     }

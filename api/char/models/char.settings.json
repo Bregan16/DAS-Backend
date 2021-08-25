@@ -15,23 +15,14 @@
     "name": {
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": true,
+      "private": true
     },
-    "Eigenschaften": {
+    "eigenschaften": {
       "type": "component",
       "repeatable": false,
       "component": "eigenschaften.eigenschaften",
       "required": true
-    },
-    "kampftechniken": {
-      "type": "component",
-      "repeatable": false,
-      "component": "kampftechniken.kampftechniken"
-    },
-    "Fertigkeiten": {
-      "type": "component",
-      "repeatable": false,
-      "component": "fertigkeiten.fertigkeiten"
     },
     "zauber": {
       "type": "component",
@@ -51,7 +42,7 @@
       "component": "elfenlieder.elfenlieder",
       "required": true
     },
-    "persoenlicheDaten": {
+    "persoenlichedaten": {
       "type": "component",
       "repeatable": false,
       "component": "persoenliche-daten.persoenliche-daten"
@@ -79,6 +70,21 @@
     "karmale_sonderfertigkeitens": {
       "via": "chars",
       "collection": "karmale-sonderfertigkeiten"
+    },
+    "kampftechniken": {
+      "type": "component",
+      "repeatable": true,
+      "component": "kampftechniken.kampftechniken"
+    },
+    "talente": {
+      "type": "component",
+      "repeatable": true,
+      "component": "talente.talente"
+    },
+    "discordname": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }

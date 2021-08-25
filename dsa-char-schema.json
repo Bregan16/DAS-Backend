@@ -1,0 +1,169 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "spieler": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "eigenschaften": {
+      "type": "object",
+      "properties": {
+        "MU": {
+          "type": "integer"
+        },
+        "KL": {
+          "type": "integer"
+        },
+        "IN": {
+          "type": "integer"
+        },
+        "CH": {
+          "type": "integer"
+        },
+        "FF": {
+          "type": "integer"
+        },
+        "GE": {
+          "type": "integer"
+        },
+        "KO": {
+          "type": "integer"
+        },
+        "KK": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "MU",
+        "KL",
+        "IN",
+        "CH",
+        "FF",
+        "GE",
+        "KO",
+        "KK"
+      ]
+    },
+    "kampftechniken": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "ktw": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "name",
+            "ktw"
+          ]
+        }
+      ]
+    },
+    "talente": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "fertigkeitswert": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "name",
+            "fertigkeitswert"
+          ]
+        }
+      ]
+    },
+    "zauber": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "fertigkeitswert": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "name",
+            "fertigkeitswert"
+          ]
+        }
+      ]
+    },
+    "liturgien": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "fertigkeitswert": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "name",
+              "fertigkeitswert"
+            ]
+          }
+        ]
+    },
+    "elfenlieder": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "fertigkeitswert": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "name",
+            "fertigkeitswert"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "name",
+    "spieler",
+    "eigenschaften",
+    "kampftechniken",
+    "talente",
+    "zauber",
+    "liturgien",
+    "elfenlieder"
+  ]
+}

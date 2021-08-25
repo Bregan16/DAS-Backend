@@ -7,71 +7,71 @@
   },
   "options": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "Spezies": {
+    "spezies": {
       "type": "string"
     },
-    "Kultur": {
+    "kultur": {
       "type": "string"
     },
     "groesse": {
       "type": "decimal"
     },
-    "Titel": {
+    "titel": {
       "type": "string"
     },
-    "Sozialstatus": {
+    "sozialstatus": {
       "type": "string"
     },
-    "Alter": {
+    "alter": {
       "type": "integer"
     },
-    "Gewicht": {
+    "gewicht": {
       "type": "integer"
     },
-    "Geschlecht": {
+    "geschlecht": {
       "type": "enumeration",
       "enum": [
         "M",
         "W"
       ]
     },
-    "Geburtsdatum": {
+    "geburtsdatum": {
       "type": "string"
     },
-    "Geburtsort": {
+    "geburtsort": {
       "type": "string"
     },
-    "Profession": {
+    "profession": {
       "type": "string"
     },
-    "Lebensenergie": {
+    "lebensenergie": {
       "type": "integer"
     },
-    "Astralenergie": {
+    "astralenergie": {
       "type": "integer"
     },
-    "Karmaenergie": {
+    "karmaenergie": {
       "type": "integer"
     },
-    "Seelenkraft": {
+    "seelenkraft": {
       "type": "integer"
     },
-    "Zaehigkeit": {
+    "zaehigkeit": {
       "type": "integer"
     },
-    "Ausweichen": {
+    "ausweichen": {
       "type": "integer"
     },
-    "Initiative": {
+    "initiative": {
       "type": "integer"
     },
-    "Geschwindigkeit": {
+    "geschwindigkeit": {
       "type": "integer"
     },
-    "Schicksalspunkte": {
+    "schicksalspunkte": {
       "type": "integer"
     }
   }

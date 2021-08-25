@@ -7,42 +7,42 @@
   },
   "options": {},
   "attributes": {
-    "Mut": {
+    "MU": {
       "type": "integer",
       "required": true,
       "default": 10
     },
-    "Klugheit": {
+    "KL": {
       "type": "integer",
       "required": true,
       "default": 10
     },
-    "Intuition": {
+    "IN": {
       "type": "integer",
       "required": true,
       "default": 10
     },
-    "Charisma": {
+    "CH": {
       "type": "integer",
       "required": true,
       "default": 10
     },
-    "Fingerfertigkeit": {
+    "FF": {
       "type": "integer",
       "required": true,
       "default": 10
     },
-    "Gewandtheit": {
+    "GE": {
       "type": "integer",
       "required": true,
       "default": 10
     },
-    "Konstitution": {
+    "KO": {
       "type": "integer",
       "required": true,
       "default": 10
     },
-    "Koerperkraft": {
+    "KK": {
       "type": "integer",
       "required": true,
       "default": 10
