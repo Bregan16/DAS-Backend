@@ -11,6 +11,10 @@ https://dashboard.heroku.com/apps/whispering-brushlands-24107
 
 https://de.wiki-aventurica.de/wiki/Zauberformel/DSA5
 
+
+### JSON schema validator
+https://www.jsonschemavalidator.net/
+
 ###  Local Strapi
 http://localhost:1337/admin/plugins/content-manager/collectionType/application::char.char/1
 
@@ -22,8 +26,6 @@ https://whispering-brushlands-24107.herokuapp.com/admin/plugins/content-manager/
 
 ### Online JSON  
 https://whispering-brushlands-24107.herokuapp.com/chars/1
-
-
 
 Madman16
 

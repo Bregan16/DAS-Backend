@@ -7,10 +7,10 @@
   },
   "options": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "Fertigkeitswert": {
+    "fertigkeitswert": {
       "type": "integer",
       "default": 0
     }

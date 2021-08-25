@@ -2,14 +2,15 @@
   "collectionName": "components_liturgien_liturgiens",
   "info": {
     "name": "liturgien",
-    "icon": "at"
+    "icon": "at",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "Fertikeitswert": {
+    "fertikeitswert": {
       "type": "integer",
       "default": 0
     }
