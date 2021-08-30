@@ -16,7 +16,7 @@
       "type": "string",
       "required": true,
       "unique": true,
-      "private": true
+      "private": false
     },
     "eigenschaften": {
       "type": "component",
